@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F515B731B2BD1ED00E1DFFC /* IFDateCreatedFixer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F515B6D1B2BD1ED00E1DFFC /* IFDateCreatedFixer.m */; };
+		1F515B741B2BD1ED00E1DFFC /* IFMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F515B6F1B2BD1ED00E1DFFC /* IFMain.m */; };
+		1F515B751B2BD1ED00E1DFFC /* IFMetadataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F515B711B2BD1ED00E1DFFC /* IFMetadataManager.m */; };
+		1F515B761B2BD1ED00E1DFFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F515B721B2BD1ED00E1DFFC /* main.m */; };
+		1FF518BB1B2BCA590009F527 /* IFImageDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF518BA1B2BCA590009F527 /* IFImageDescriptor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F0C7A8F1B2BC123007DA2B6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F0C7A911B2BC123007DA2B6 /* ImageFixer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ImageFixer; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F515B6C1B2BD1ED00E1DFFC /* IFDateCreatedFixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IFDateCreatedFixer.h; path = ImageFixer/IFDateCreatedFixer.h; sourceTree = SOURCE_ROOT; };
+		1F515B6D1B2BD1ED00E1DFFC /* IFDateCreatedFixer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IFDateCreatedFixer.m; path = ImageFixer/IFDateCreatedFixer.m; sourceTree = SOURCE_ROOT; };
+		1F515B6E1B2BD1ED00E1DFFC /* IFMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IFMain.h; path = ImageFixer/IFMain.h; sourceTree = SOURCE_ROOT; };
+		1F515B6F1B2BD1ED00E1DFFC /* IFMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IFMain.m; path = ImageFixer/IFMain.m; sourceTree = SOURCE_ROOT; };
+		1F515B701B2BD1ED00E1DFFC /* IFMetadataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IFMetadataManager.h; path = ImageFixer/IFMetadataManager.h; sourceTree = SOURCE_ROOT; };
+		1F515B711B2BD1ED00E1DFFC /* IFMetadataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IFMetadataManager.m; path = ImageFixer/IFMetadataManager.m; sourceTree = SOURCE_ROOT; };
+		1F515B721B2BD1ED00E1DFFC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ImageFixer/main.m; sourceTree = SOURCE_ROOT; };
+		1FF518B91B2BCA590009F527 /* IFImageDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IFImageDescriptor.h; path = ImageFixer/IFImageDescriptor.h; sourceTree = SOURCE_ROOT; };
+		1FF518BA1B2BCA590009F527 /* IFImageDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IFImageDescriptor.m; path = ImageFixer/IFImageDescriptor.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F0C7A8E1B2BC123007DA2B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F0C7A581B2BA097007DA2B6 = {
+			isa = PBXGroup;
+			children = (
+				1F0C7A921B2BC123007DA2B6 /* ImageFixer */,
+				1F0C7A621B2BA097007DA2B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F0C7A621B2BA097007DA2B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F0C7A911B2BC123007DA2B6 /* ImageFixer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F0C7A921B2BC123007DA2B6 /* ImageFixer */ = {
+			isa = PBXGroup;
+			children = (
+				1F515B6C1B2BD1ED00E1DFFC /* IFDateCreatedFixer.h */,
+				1F515B6D1B2BD1ED00E1DFFC /* IFDateCreatedFixer.m */,
+				1F515B6E1B2BD1ED00E1DFFC /* IFMain.h */,
+				1F515B6F1B2BD1ED00E1DFFC /* IFMain.m */,
+				1F515B701B2BD1ED00E1DFFC /* IFMetadataManager.h */,
+				1F515B711B2BD1ED00E1DFFC /* IFMetadataManager.m */,
+				1F515B721B2BD1ED00E1DFFC /* main.m */,
+				1FF518B91B2BCA590009F527 /* IFImageDescriptor.h */,
+				1FF518BA1B2BCA590009F527 /* IFImageDescriptor.m */,
+			);
+			name = ImageFixer;
+			path = ImageFixerCL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F0C7A901B2BC123007DA2B6 /* ImageFixer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0C7A951B2BC123007DA2B6 /* Build configuration list for PBXNativeTarget "ImageFixer" */;
+			buildPhases = (
+				1F0C7A8D1B2BC123007DA2B6 /* Sources */,
+				1F0C7A8E1B2BC123007DA2B6 /* Frameworks */,
+				1F0C7A8F1B2BC123007DA2B6 /* CopyFiles */,
+				1F515B781B2BD23F00E1DFFC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageFixer;
+			productName = ImageFixerCL;
+			productReference = 1F0C7A911B2BC123007DA2B6 /* ImageFixer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F0C7A591B2BA097007DA2B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Zenel Kazushi";
+				TargetAttributes = {
+					1F0C7A901B2BC123007DA2B6 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1F0C7A5C1B2BA097007DA2B6 /* Build configuration list for PBXProject "ImageFixer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F0C7A581B2BA097007DA2B6;
+			productRefGroup = 1F0C7A621B2BA097007DA2B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F0C7A901B2BC123007DA2B6 /* ImageFixer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F515B781B2BD23F00E1DFFC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COPY_TO=/usr/local/bin\n\ncp $BUILT_PRODUCTS_DIR/ImageFixer $COPY_TO";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F0C7A8D1B2BC123007DA2B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F515B761B2BD1ED00E1DFFC /* main.m in Sources */,
+				1F515B741B2BD1ED00E1DFFC /* IFMain.m in Sources */,
+				1F515B751B2BD1ED00E1DFFC /* IFMetadataManager.m in Sources */,
+				1F515B731B2BD1ED00E1DFFC /* IFDateCreatedFixer.m in Sources */,
+				1FF518BB1B2BCA590009F527 /* IFImageDescriptor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F0C7A7F1B2BA097007DA2B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1F0C7A801B2BA097007DA2B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1F0C7A961B2BC123007DA2B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEPLOYMENT_LOCATION = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F0C7A971B2BC123007DA2B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEPLOYMENT_LOCATION = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F0C7A5C1B2BA097007DA2B6 /* Build configuration list for PBXProject "ImageFixer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0C7A7F1B2BA097007DA2B6 /* Debug */,
+				1F0C7A801B2BA097007DA2B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0C7A951B2BC123007DA2B6 /* Build configuration list for PBXNativeTarget "ImageFixer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0C7A961B2BC123007DA2B6 /* Debug */,
+				1F0C7A971B2BC123007DA2B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F0C7A591B2BA097007DA2B6 /* Project object */;
+}
